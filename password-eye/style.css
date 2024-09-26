@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.form-contain{
+    display: flex;
+    justify-content: center;
+    height: 40vh;
+}
+form{
+    margin-top: 5%;
+    border: 3px solid black;
+    min-width: 20vw;
+    height: 20vh;
+    background-color: lightgreen;
+}
+.ri-eye-line{
+    position: relative;
+    right: 23px;
+    top: 3px;
+}

@@ -1,0 +1,28 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    color: #000;
+}
+
+.dark-mode{
+    background-color: #000;
+    color: #fff;
+}
+.contain{
+      display: flex;
+      justify-content: center;
+      cursor: pointer;
+    font-size: 2em;
+}
+.ri-toggle-fill{
+    display: none;
+    transition: 0.8s ease-in;
+    color: gold;
+}
+.ri-toggle-line{
+    transition: 0.8s ease-in;
+    /* color: black; */
+}
