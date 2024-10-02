@@ -1,9 +1,6 @@
-const ul = document.querySelector('.sidebar')
-const menu = document.querySelector('.ri-menu-line')
-console.log(menu);
+const navToggle = document.querySelector(".nav-toggle");
+const links = document.querySelector(".links");
 
-menu.addEventListener('click',()=>{
-    ul.style.display ='flex';
-})
-
-
+navToggle.addEventListener("click", function () {
+  links.classList.toggle("show");
+});
